@@ -30,5 +30,5 @@ dependencies {
     compile ('com.sk89q.worldguard:worldguard-bukkit:7.0.1-SNAPSHOT')  {
         exclude group: 'org.bukkit', module: 'bukkit'
     }
-    
+
 }
