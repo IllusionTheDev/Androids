@@ -1,4 +1,4 @@
-package me.imillusion.androids.data.actions.specific;
+package me.imillusion.androids.androids.miner;
 
 import me.imillusion.androids.data.common.AndroidAction;
 

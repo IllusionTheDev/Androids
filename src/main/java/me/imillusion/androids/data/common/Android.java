@@ -5,8 +5,15 @@ import java.util.UUID;
 
 public interface Android {
 
-    String getName();
+    default String getName() {
+        return getModel().getName();
+    }
+    default String getIdentifier() {
+        return getModel().getIdentifier();
+    }
+
     UUID getOwner();
-    String getIdentifier();
+
+    AndroidModel getModel();
     ArrayList<AndroidAction> getActions();
 }
